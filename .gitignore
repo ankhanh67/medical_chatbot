@@ -1,0 +1,30 @@
+# Môi trường ảo (Virtual environments)
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Quản lý gói bằng uv
+uv.lock
+
+# File cấu hình biến môi trường (chứa API keys, mật khẩu database...)
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Thư mục dữ liệu và logs (tránh đẩy file lớn lên repo)
+data/
+logs/
+*.csv
+*.log
+*.sqlite3
+
+# File hệ thống
+.DS_Store
+Thumbs.db
